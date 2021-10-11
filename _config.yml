@@ -13,12 +13,15 @@ addthis_id:
 post_limit: 5
 
 # Social usernames/URLs
-twitter_username: YuryVoloshin
-github_username:  yvoloshin
-linkedin_link: http://www.linkedin.com/in/yvoloshin
-google_plus_link: 
-stackoverflow_link:
-
+twitter_username: _jacobtomlinson
+github_username:  jacobtomlinson
+instagram_username: 
+reddit_username: 
+linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
+stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
+xing_link:
+facebook_link:
+lastfm_username: aniketchahal
 # Footer
 footer_left: "Template made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
 footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
