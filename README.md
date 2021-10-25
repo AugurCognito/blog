@@ -1,4 +1,4 @@
-Code for my [blog](augurcognito.github.io/blog/). It is a fork of [Carte Noire](https://github.com/jacobtomlinson/carte-noire).
+Code for my [blog](https://augurcognito.github.io/blog/). It is a fork of [Carte Noire](https://github.com/jacobtomlinson/carte-noire).
 
 ---
 ## License

@@ -1,35 +1,37 @@
 ---
 ---
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
 
 /* Colours */
-$twitter:        #6dabda;
-$linkedin:       #2b77b1;
-$xing:           #006567;
-$google-plus:    #c95644;
-$facebook:       #365899;
-$github:         #f6c2a4;
+$twitter: #6dabda;
+$linkedin: #2b77b1;
+$xing: #006567;
+$google-plus: #c95644;
+$facebook: #365899;
+$github: #f0f6fcb3;
 $stack-overflow: #c98b3b;
-$instagram:      #cd486b;
-$reddit:         #cee3f8;
-$rss:            #eea33a;
+$instagram: #cd486b;
+$reddit: #cee3f8;
+$lastfm: #ba0000;
+$rss: #eea33a;
 
-$darker:         #21211E;
-$dark:           #2D2D29;
-$medium:         #3B3B35;
-$light-medium:   #969696;
-$dark-blue:      #215A6D;
-$light-blue:     #3CA2A2;
-$green:          #92C7A3;
-$light:          #DFECE6;
-$white:          #FFFFFF;
-$dark-purple:    #300030;
-$medium-purple:  #480048;
+$darker: #21211e;
+$dark: #2d2d29;
+$medium: #3b3b35;
+$light-medium: #969696;
+$dark-blue: #215a6d;
+$light-blue: #3ca2a2;
+$green: #92c7a3;
+$light: #dfece6;
+$white: #ffffff;
+$dark-purple: #300030;
+$medium-purple: #480048;
 $regular-purple: #601848;
-$red:            #C04848;
-$orange:         #F07241;
+$red: #c04848;
+$orange: #f07241;
 
 /* Responsive sizes */
 $screen-sm-min: 768px;
@@ -44,16 +46,17 @@ html {
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
 	background-color: $dark;
 	color: $white;
 	font-size: 16px;
 	height: 100%;
-	width: 100%
+	width: 100%;
 }
 
-a, a:active {
+a,
+a:active {
 	color: $light-blue;
 	text-decoration: none;
 }
@@ -64,10 +67,11 @@ a:hover {
 }
 
 ul {
-    list-style-type: none;
+	list-style-type: none;
 }
 
-.navbar, .nav {
+.navbar,
+.nav {
 	background-color: $dark-blue;
 
 	.navbar-toggle {
@@ -77,8 +81,8 @@ ul {
 	}
 
 	li {
-
-		a, a:active {
+		a,
+		a:active {
 			color: $white;
 		}
 
@@ -90,10 +94,10 @@ ul {
 }
 
 .clearfix:after {
-   content: " ";
-   display: block;
-   height: 0;
-   clear: both;
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
 }
 
 .header {
@@ -139,12 +143,12 @@ ul {
 }
 
 #my-menu {
-
 	p {
 		margin-bottom: 5px;
 	}
 
-	a, a:active {
+	a,
+	a:active {
 		color: $white;
 	}
 
@@ -153,7 +157,6 @@ ul {
 	}
 
 	.pages {
-
 		.fa {
 			margin-right: 10px;
 		}
@@ -187,35 +190,33 @@ ul {
 	.fa-linkedin:hover {
 		color: $linkedin;
 	}
-	
+
 	.fa-xing:hover {
 		color: $xing;
 	}
-
-	.fa-google-plus:hover {
-		color: $google-plus;
+	.fa-lastfm:hover {
+		color: $lastfm;
 	}
-	
 	.fa-facebook:hover {
 		color: $facebook;
 	}
 
-	.fa-github-alt:hover {
+	.fa-github:hover {
 		color: $github;
 	}
 
 	.fa-stack-overflow:hover {
 		color: $stack-overflow;
 	}
-	
+
 	.fa-instagram:hover {
 		color: $instagram;
 	}
-	
+
 	.fa-reddit-alien:hover {
 		color: $reddit;
 	}
-	
+
 	.fa-rss:hover {
 		color: $rss;
 	}
@@ -231,7 +232,7 @@ ul {
 
 	@media (min-width: $screen-sm-min) {
 		width: 700px;
-		max-width:700px;
+		max-width: 700px;
 	}
 
 	.header {
@@ -256,7 +257,7 @@ ul {
 	}
 
 	.author-header {
-		font-family: 'Montserrat', sans-serif;
+		font-family: "Montserrat", sans-serif;
 		color: $light-blue;
 		margin-top: 0px;
 		padding-top: 15px;
@@ -311,7 +312,6 @@ ul {
 		}
 
 		ul {
-
 			padding: 0px;
 
 			li {
@@ -328,19 +328,17 @@ ul {
 					padding-top: 0px;
 					color: $light-medium;
 				}
-
 			}
 
 			li:nth-last-of-type(1) {
-
 				small {
 					font-size: 16px;
 				}
-
 			}
 		}
 
-		a, a:active {
+		a,
+		a:active {
 			color: $white;
 			white-space: nowrap;
 		}
@@ -356,8 +354,9 @@ ul {
 	}
 
 	.links {
-		a, a:active {
-			color: #FFFFFF;
+		a,
+		a:active {
+			color: #ffffff;
 		}
 	}
 
@@ -368,8 +367,9 @@ ul {
 		position: absolute;
 		bottom: 0px;
 
-		a, a:active {
-			color: #FFFFFF;
+		a,
+		a:active {
+			color: #ffffff;
 		}
 
 		a:hover {
@@ -388,7 +388,6 @@ ul {
 			}
 		}
 	}
-
 }
 
 .all-posts {
@@ -412,24 +411,24 @@ ul {
 	}
 
 	#search-input {
-		position:relative;
+		position: relative;
 		width: 100%;
-		padding:6px 15px 6px 30px;
+		padding: 6px 15px 6px 30px;
 		margin: 2px;
 		margin-top: 50px;
 
-		color:$dark;
-		background-color:$white;
+		color: $dark;
+		background-color: $white;
 
-		border:1px solid #adc5cf;
-		border-radius:15px;
-		-moz-border-radius:15px;
-		-webkit-border-radius:15px;
+		border: 1px solid #adc5cf;
+		border-radius: 15px;
+		-moz-border-radius: 15px;
+		-webkit-border-radius: 15px;
 	}
 
 	#search-input:focus {
 		outline: none;
-  }
+	}
 
 	.content-panel {
 		padding-left: 10px;
@@ -441,18 +440,25 @@ ul {
 	}
 }
 
-
 .single {
-	height:100%;
+	height: 100%;
 	max-height: 100%;
 
-	h1, h2, h3, h4, h5, h6 {
-		font-family: 'Montserrat', sans-serif;
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: "Montserrat", sans-serif;
 		margin-bottom: 10px;
 	}
 
 	h2 {
-		font-size: 36px;
+		font-size: 32px;
+		border-color: #757575;
+		border-left-style: solid;
+		padding-left: 3px;
 	}
 
 	h3 {
@@ -468,10 +474,10 @@ ul {
 	}
 
 	.menu {
-
 		background-color: $dark-blue;
 
-		a, a:active {
+		a,
+		a:active {
 			color: $white;
 		}
 
@@ -582,23 +588,23 @@ ul {
 			img {
 				max-width: 100%;
 				padding: 10px;
-    		display: block;
-    		margin-left: auto;
-    		margin-right: auto
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
 			}
 
 			ul {
 				list-style-type: disc;
 			}
 
-            		ol {
+			ol {
 				list-style-type: decimal;
 			}
 
 			blockquote {
 				position: relative;
 				width: 100%;
-		    margin-left: -15px;
+				margin-left: -15px;
 				padding-right: 10px;
 				background-color: $darker;
 				color: white;
@@ -613,22 +619,21 @@ ul {
 				}
 
 				p {
-			    margin: 0;
-			    padding: 15px;
+					margin: 0;
+					padding: 15px;
 					z-index: 0;
 				}
 
 				:before {
-    			font-family: "Times New Roman";
+					font-family: "Times New Roman";
 					color: $light-medium;
-			    content: "“";
-			    position: absolute;
-			    top: 15px;
-			    left: 15px;
-			    font-size: 65px;
-			    font-weight: bold;
+					content: "“";
+					position: absolute;
+					top: 15px;
+					left: 15px;
+					font-size: 65px;
+					font-weight: bold;
 				}
-
 			}
 
 			.alignright {
@@ -636,11 +641,12 @@ ul {
 			}
 
 			.aligncenter {
-			    display: block;
-			    margin: 5px auto 5px auto;
+				display: block;
+				margin: 5px auto 5px auto;
 			}
 
-			figure.highlight, div.highlighter-rouge {
+			figure.highlight,
+			div.highlighter-rouge {
 				width: 100%;
 				margin-left: -15px;
 				padding-right: 10px;
@@ -653,7 +659,7 @@ ul {
 
 				pre {
 					width: 100%;
-					font-family: 'Anonymous Pro';
+					font-family: "Anonymous Pro";
 					background-color: $darker;
 					color: $white;
 					font-size: 12px;
@@ -676,17 +682,17 @@ ul {
 				}
 			}
 
-			p, ul, ol {
-
+			p,
+			ul,
+			ol {
 				code {
-					font-family: 'Anonymous Pro';
+					font-family: "Anonymous Pro";
 					font-size: 15px;
 					background-color: $darker;
 					color: $white;
 					padding: 0.5em;
 					vertical-align: middle;
 				}
-
 			}
 
 			.tags {
@@ -694,23 +700,21 @@ ul {
 				margin-bottom: 10px;
 				text-align: center;
 
-				a, a:active {
+				a,
+				a:active {
 					color: $white;
 				}
 
 				a:hover {
 					color: $light-blue;
 				}
-
 			}
 
 			.share {
 				margin-top: 20px;
 				margin-bottom: 10px;
 				text-align: center;
-
 			}
-
 		}
 
 		.feedback {
@@ -719,12 +723,10 @@ ul {
 			.fa-heart {
 				color: $red;
 			}
-
 		}
 
 		.comments {
 		}
-
 	}
 }
 
@@ -751,7 +753,7 @@ ul {
 	}
 
 	.title {
-		padding-top:20px;
+		padding-top: 20px;
 		font-size: 24px;
 		margin-bottom: 20px;
 
@@ -883,19 +885,19 @@ ul {
 	}
 }
 
-table{
-    margin: 0 auto;
-    border-collapse: collapse;
-    border-spacing: 0;
-    border:2px solid $darker;;
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 2px solid $darker;
 }
 
-th{
-    padding: 2px;
-    border:2px solid $darker;;
+th {
+	padding: 2px;
+	border: 2px solid $darker;
 }
 
-td{
-    padding: 2px;
-    border:1px solid $dark-blue;;
+td {
+	padding: 2px;
+	border: 1px solid $dark-blue;
 }
