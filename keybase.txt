@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/augurcognito
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://augurcognito.live
+  * I am augurcognito (https://keybase.io/augurcognito) on keybase.
+  * I have a public key ASB-YJLeY-QLr09LoMca8mhUiio3USxtEGXXpEAfxy3J-Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207e6092de63e40baf4f4ba0c71af268548a2a37512c6d1065d7a4401fc72dc9f80a",
+      "host": "keybase.io",
+      "kid": "01207e6092de63e40baf4f4ba0c71af268548a2a37512c6d1065d7a4401fc72dc9f80a",
+      "uid": "0497fec4f9a2befff4242cf3db4bc319",
+      "username": "augurcognito"
+    },
+    "merkle_root": {
+      "ctime": 1635275386,
+      "hash": "83ed6e662f8d8d8c22a3bf239aed80084a7fd2b0af64b00ec1784821bd17f9fb7160334808db445ebcbddfa19c7192b3138def67ec5fe40861cd1b6af822d487",
+      "hash_meta": "3b2dd268508bb5bf3e36cb30f6005e571e6f6288e3d960a8bda06cb05188aed9",
+      "seqno": 21069790
+    },
+    "service": {
+      "entropy": "ucjHMU4zSf7/FMkiVTgketCP",
+      "hostname": "augurcognito.live",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.8.0"
+  },
+  "ctime": 1635275480,
+  "expire_in": 504576000,
+  "prev": "5ee2d68eefda89b569dbfcb8caa6b1b6597b4ff7683dea3b98e8b97aedf105c2",
+  "seqno": 25,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgfmCS3mPkC69PS6DHGvJoVIoqN1EsbRBl16RAH8ctyfgKp3BheWxvYWTESpcCGcQgXuLWju/aibVp2/y4yqaxtll7T/doPeo7mOi5eu3xBcLEIN746pNBs9DxBY0XCh4loQ5vqicnYDT7ZId5fqax3m4cAgHCo3NpZ8RAp+SoDwAFZBV6L1udH3rG8GuJx34RrNAT5nJcFPL9TciBQ8DmDI2j3MP1rDHutBE12qOeXn98/NK0HbtMgOMRCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIBewmzWtigPYiDMXIrxzllb+9jtm9thdE3NvcM8va76o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/augurcognito
+
+==================================================================

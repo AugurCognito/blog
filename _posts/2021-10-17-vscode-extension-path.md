@@ -9,6 +9,7 @@ thumbnail:  vscode
 tags:
  - windows
  - editor
+ - setup
 ---
 
 If you are like me and just hate seeing your C drive fill up or just like to have a clean C drive then this post is for you.
