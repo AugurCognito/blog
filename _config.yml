@@ -9,7 +9,9 @@ title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s
 google_analytics: 
 disqus_account: augurcognito
 github_repository: https://github.com/AugurCognito/blog
-addthis_id: 
+addthis_id:
+plausible_site: augurcognito.live
+goatcounter_code: augurcognito
 post_limit: 5
 
 # Social usernames/URLs
@@ -24,7 +26,7 @@ facebook_link:
 lastfm_username: aniketchahal
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"--\">Aniket Singh</a>"
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://keybase.io/augurcognito\">Aniket Singh</a>"
 footer_right: "&lt;/&gt; on <a href=\"https://github.com/AugurCognito/blog\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings

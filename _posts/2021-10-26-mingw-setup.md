@@ -17,6 +17,7 @@ Are you new to programming and want to start with C++ or C or just want to setup
 Now let's start with simplest way.
 
 # minGW
-Visit [this][1], open the folder with latest version of minGW GCC and download the `.7z` file.
+Visit [this][1], open the folder with latest version of minGW GCC and download the `.7z` file. After downloading extract it. If you don't have any application to extract `.7z`, I reccmend downloading [7zip][2].
 
 [1]: https://sourceforge.net/projects/gcc-win64/files/
+[2]: https://www.7-zip.org/download.html
