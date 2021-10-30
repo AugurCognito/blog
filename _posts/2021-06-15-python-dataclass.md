@@ -6,7 +6,6 @@ author:     Aniket
 summary:    Python dataclass in brief without trying to overwhelm the user with information.
 categories: python
 thumbnail:  python
-description: aa
 tags:
  - dataclass
  - oop

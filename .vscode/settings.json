@@ -1,0 +1,24 @@
+{
+    "grammarly.overrides": [
+        {
+            "files": [
+                "**/_posts/2021-10-17-vscode-extension-path.md"
+            ],
+            "config": {
+                "audience": "knowledgeable",
+                "dialect": "american",
+                "domain": "technical",
+                "emotions": [
+                    "neutral",
+                    "respectful",
+                    "friendly",
+                    "analytical"
+                ],
+                "goals": [
+                    "inform",
+                    "describe"
+                ]
+            }
+        }
+    ]
+}
