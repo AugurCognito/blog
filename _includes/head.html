@@ -2,8 +2,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" {% if page.description %} content="{{page.summary}}" {% endif %} {% if site.summary
-        %} content="{{site.description}}" {% endif %}>
+    <meta name="description" {% if page.summary %} content="{{ page.summary }}" {% endif %} {% if site.description %} content="{{site.description}}" {% endif %}>
 
 
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -35,7 +34,8 @@
 
     {% if site.addthis_id %}
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ site.addthis_id }}"></script>
+    <script type="text/javascript"
+        src="https://s7.addthis.com/js/300/addthis_widget.js#pubid={{ site.addthis_id }}"></script>
     {% endif %}
 
     <!-- MathJax for LaTeX -->
@@ -50,4 +50,6 @@
     <script data-goatcounter="https://{{ site.goatcounter_code }}.goatcounter.com/count" async
         src="//gc.zgo.at/count.js"></script>
     {% endif %}
+    <!-- Only use if  -->
+
 </head>

@@ -14,6 +14,9 @@
 <script src="{{ site.baseurl }}/js/jquery.mmenu.min.all.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+
+<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.10/clipboard.min.js"></script>
+
 <script type="text/javascript">
   $(document).ready(function () {
     $("#my-menu").mmenu().on("closed.mm", function () {
@@ -86,3 +89,23 @@
   })();
 </script>
 {% endif %}
+
+<script type="text/javascript">
+  var clipboard = new Clipboard('.btn-copy', {
+    text: function () {
+      return document.querySelector('input[type=hidden]').value;
+    }
+  });
+  clipboard.on('success', function (e) {
+    alert("Copied!");
+    e.clearSelection();
+  });
+  $("#input-url").val(location.href);
+  //safari
+  if (navigator.vendor.indexOf("Apple") == 0 && /\sSafari\//.test(navigator.userAgent)) {
+    $('.btn-copy').on('click', function () {
+      var msg = window.prompt("Copy this link", location.href);
+
+    });
+  }
+</script>

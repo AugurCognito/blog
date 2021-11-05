@@ -900,3 +900,15 @@ td {
 	padding: 2px;
 	border: 1px solid $dark-blue;
 }
+
+.btn-copy {
+	background-color: transparent;
+	border: transparent;
+}
+
+.fa-link {
+	color: #3ca2a2;
+	&:hover{
+		color: #006567;
+	}
+}
