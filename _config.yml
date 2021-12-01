@@ -10,8 +10,8 @@ email: singhaniket@tutanota.com
 disqus_account: augurcognito
 github_repository: https://github.com/AugurCognito/blog
 addthis_id:
-plausible_site: augurcognito.live
-goatcounter_code: augurcognito
+plausible_site:
+goatcounter_code:
 post_limit: 5
 
 # Social usernames/URLs

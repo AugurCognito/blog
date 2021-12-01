@@ -98,27 +98,34 @@ layout: default
           </small>
         </div>
         {% endif %}
+        <div class="post-footer" style="display: flex; justify-content: space-between; flex-direction: row-reverse; ">
 
-        <div class="share-wrapper" style="display:flex; justify-content: end;">
+          <div class="share-wrapper" style="display: inline-flex; ">
 
-          <span style="padding-right: 2px;font-size:22px;color: #bbbbbb;"> Share: </span>
+            <span style="padding-right: 2px;font-size:22px;color: #bbbbbb;"> Share: </span>
 
-          <div class="share-icons">
-            <a href="https://twitter.com/intent/tweet?text={{ page.summary }}&url={{ site.url }}{{ page.url }}"
-              data-toggle="tooltip" title="Twitter" target="_blank">
-              <i class="fa fa-twitter"></i>
-            </a>
+            <div class="share-icons">
+              <a href="https://twitter.com/intent/tweet?text={{ page.summary }}&url={{ site.url }}{{ page.url }}"
+                data-toggle="tooltip" title="Twitter" target="_blank" rel="noreferrer">
+                <i class="fa fa-twitter"></i>
+              </a>
 
-            <a href="https://www.facebook.com/sharer/sharer.php?title={{ page.summary }}&u{{ site.url }}{{ page.url }}"
-              title="Facebook" target="_blank" aria-label="Facebook">
-              <i class="fa fab fa-facebook"></i>
-            </a>
+              <a href="https://www.facebook.com/sharer/sharer.php?title={{ page.summary }}&u{{ site.url }}{{ page.url }}"
+                title="Facebook" target="_blank" aria-label="Facebook" rel="noreferrer">
+                <i class="fa fab fa-facebook"></i>
+              </a>
 
-            <!-- Trigger -->
-            <input type="hidden" id="input-url" value="Copied!">
-            <button class="btn-copy"><i class="fa fa-link"></i></button>
+              <!-- Trigger -->
+              <input type="hidden" id="input-url" value="Copied!">
+              <button name="Link Copy" class="btn-copy"><i class="fa fa-link"></i></button>
 
+            </div>
           </div>
+          {% if page.last_edited %}
+          <div class="last-edited">
+            Last Edited: {{ page.last_edited | date: "%B %-d, %Y" }}
+          </div>
+          {% endif %}
         </div>
       </div>
 
@@ -188,11 +195,8 @@ layout: default
         </div>
       </div>
       {% endif %}
-
     </div>
-
   </div>
-
 </div>
 
 {% if site.disqus_account %}
