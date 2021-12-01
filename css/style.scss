@@ -20,7 +20,7 @@ $rss: #eea33a;
 $darker: #21211e;
 $dark: #2d2d29;
 $medium: #3b3b35;
-$light-medium: #969696;
+$light-medium: #C9C9C9;
 $dark-blue: #215a6d;
 $light-blue: #3ca2a2;
 $green: #92c7a3;
@@ -542,8 +542,10 @@ ul {
 
 			img {
 				height: 50px;
+				width: auto;
 				@media (min-width: $screen-sm-min) {
 					height: 70px;
+					width: auto;
 				}
 			}
 		}
@@ -912,3 +914,54 @@ td {
 		color: #006567;
 	}
 }
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 25%;
+	a{
+		color: white;
+	}
+	@media (min-width: $screen-sm-min) {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	@media (min-width: $screen-md-min) {
+		width: 70%;
+		margin-left: 15%;
+	}
+
+	@media (min-width: $screen-lg-min) {
+		width: 50%;
+		margin-left: 25%;
+	}
+	@media (max-width:786px){
+		width: 100%;
+		margin-left: 0%;
+	}
+
+  }
+  .navigation-seprator{
+	  margin-top: 0%;
+	  margin-bottom: 0%;
+	  @media (min-width: $screen-sm-min) {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	@media (min-width: $screen-md-min) {
+		width: 70%;
+		margin-left: 15%;
+	}
+
+	@media (min-width: $screen-lg-min) {
+		width: 50%;
+		margin-left: 25%;
+	}
+	@media (max-width:786px){
+		width: 100%;
+		margin-left: 0%;
+	} 
+  }

@@ -1,15 +1,12 @@
-<nav id="my-menu">
+<nav id="">
   <div>
-    <p>{{ site.title }}</p>
+    <div class="navigation">
+      <div><a href="{{ site.baseurl }}/"><i class="fa fa-home"></i> Home</a></li></div>
+      <div><a href="{{ site.baseurl }}/posts/"><i class="fa fa-archive"></i> All Posts</a></div>
+      <div><a href="{{ site.baseurl }}/about/"><i class="fa fa-user-circle"></i> About</a></div>
+      <div><a href="{{ site.baseurl }}/search/"><i class="fa fa-search"></i> Search</a></div>
+    </div>
+    <hr class="navigation-seprator"/>
 
-    <ul class="pages">
-      <li><a href="{{ site.baseurl }}/"><i class="fa fa-home"></i> Home</a></li>
-      <li><a href="{{ site.baseurl }}/posts/"><i class="fa fa-archive"></i> All Posts</a></li>
-      <li><a href="{{ site.baseurl }}/about/"><i class="fa fa-user-circle"></i> About</a></li>
-      <li><a href="{{ site.baseurl }}/search/"><i class="fa fa-search"></i> Search</a></li>
-    </ul>
-
-    {% include social_links.html %}
   </div>
 </nav>
-<div class="menu-button" href="#menu"><i class="fa fa-bars"></i></div>
