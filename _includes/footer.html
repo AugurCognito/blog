@@ -7,12 +7,8 @@
   </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-
-<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.10/clipboard.min.js"></script>
 
 
 {% if page.make-smaller-titles %}
@@ -76,24 +72,5 @@
 </script>
 {% endif %}
 
-<script type="text/javascript">
-  var clipboard = new Clipboard('.btn-copy', {
-    text: function () {
-      return document.querySelector('input[type=hidden]').value;
-    }
-  });
-  clipboard.on('success', function (e) {
-    alert("Copied!");
-    e.clearSelection();
-  });
-  $("#input-url").val(location.href);
-  //safari
-  if (navigator.vendor.indexOf("Apple") == 0 && /\sSafari\//.test(navigator.userAgent)) {
-    $('.btn-copy').on('click', function () {
-      var msg = window.prompt("Copy this link", location.href);
-
-    });
-  }
-</script>
 
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0724d57083404cb7a3c4e3a939b21507"}'></script><!-- End Cloudflare Web Analytics -->

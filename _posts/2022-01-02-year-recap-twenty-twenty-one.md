@@ -2,7 +2,7 @@
 layout:     post
 title:      What I did in 2021
 date:       2022-01-02
-last_edited: 2021-01-12
+last_edited: 2021-01-25
 author:     Aniket
 summary:    A blog entry about what I did in 2021
 categories: self
@@ -26,9 +26,6 @@ Messing with css during the Graphica[^1] taught me hate css and made me mostly l
 I made multiple projects using it and it became really easy to manipulate data when whole django app structure became somewhat clear to me. Writing rest-api insted of a web-app is also easy with [djangorest framework][9]. Djnago is just getting better and better and better and its in constant developmen. Check out [django 4.0][10]. 
 
 
-<!-- # AutoCAD -->
-<!-- During first year of engineering -->
-
 # C
 I had history with c++ when I started C. I studied and made programs in c++ in highschool. I also wrote about [c++ vectors][11]. I started C because it was in our data structure cousre. I was surprised by how liberating it felt to ditch [STL][12]. Doing everything yourself. At the same time making data stuctures made myself made me realise improtance if STL and other libraries that I took for granted. 
 
@@ -43,15 +40,15 @@ Like django but with ruby's magic. Lacks some obvious django features like admin
 
 # Editors
 I started my text-editor/IDE journey with [turbo-C++][15], that's what they had in our high-school.I mostly used notepad++ at home. During first semester, when we were taught algorithms using python, for which [pycharm][16] was recommded by our teacher. its good, students can get [pro version][17] <!-- with some dodgy terms and conditions -->. But its heavy, its not a text-editor but an IDE. Later we were told by seniors to go with [VS Code][18] for its versatility. Our data structure teacher used [CODE::BLOCKS][19].\
-I used VS code for majority of 2021 and it did not disappoint me at any point. You will be able to find extension related to almost anything. Only issue that I have with VS code is that it is an electron app and that leads to high ram and resource usage. But to its developer team's credit they take performance very seriously, for example last year they built coloured bracket pair extension's functionality inside [VS code][20] itself to improve performance. But due to it being js based you can literally run it inside your browser[^2].\
-Later I found about vim, and i fell in love withs its shortcuts and modes. It became my go-to normal text editor, not main-one because it lacked many things plus I did not want to spend my time and energy configuring it. And then I found Nvim for vscode, which i use to this day. Its VS Code but witch full vim support which I don't know why you wouldn't want to have? \
-I stayed away from even trying emacs because how time consuming it looked to configure it, when I had VS code, search an extemsion, click install and done. Also because vim, I would lose my sense for vim shortcuts if I switch to emacs, right? switching to text-only editor can be overwhelming, I wondered? **How wrong was I?**. Oh, How much I regret not coming across doom emacs sooner, \
-Doom Emacs is everything I can wish for in a text editor and if there isnt something in there which isnt to my liking I can easily change that using its easy to understand config files. I first used it exclusively on WSL and then it made me finally convert to linux for good. Its performance is good in WSL 1(loading takes a little time) and phenomenal in WSL2 but very very slow in MSYS2. It made me appriciate text-only enviornment in its true glory, After getting used to text only enviornment I finally shifted to linux, and I am writing this blog in doom emacs. hopefully its going to be last time I shift. 
+I used VS code for majority of 2021 and it did not disappoint me at any point. You will be able to find extension related to almost anything. Only issue that I have with VS code is that it is an electron app and that leads to its high ram and resource usage. But to its developer team's credit they take performance very seriously, for example last year they built coloured bracket pair extension's functionality inside [VS code][20] itself to improve performance. But due to it being js based you can literally run it inside your browser[^2].\
+Later I found about [vim][21], and i fell in love withs its shortcuts and modes. It became my go-to text editor, not code-editor tho, because it lacked many things(by default), I did not want to spend my time and energy configuring it. And then I found [VSCode Neovim][22], which i use to this day. Its VS Code but witch full vim support which I don't know why you wouldn't want to have? \
+I stayed away from even trying emacs because how time consuming it looked to configure it, when I had VS code, search an extension, click install and done. Also because vim, I would lose my sense for vim shortcuts if I switch to emacs, right? switching to text-only editor can be overwhelming, I wondered? **How wrong was I?**. Oh, How much I regret not coming across doom emacs sooner. \
+[![Doom-Emacs-Screenshot](https://i.postimg.cc/wB80qTrz/Doom-Emacs-Screenshot.png)](https://postimg.cc/w12hFHH4)[Doom Emacs][23] is everything I can wish for in a text editor and if there is not something in there which is not to my liking I can easily change that using its easy to understand and modify config `.el` files. I first used it exclusively on [WSL][24] and then it made me finally convert to linux for good. Its performance is good in WSL 1(loading takes a little time) and phenomenal in WSL2 but very very slow in [MSYS2][25]. It made me appriciate text-only enviornment in its true glory, After getting used to text only enviornment I finally shifted to linux, and I am writing this blog in doom emacs. hopefully its going to be last time I shift. 
 
 # Footnotes
 
 [^1]: A competition held for first years in AIT. Got 3rd place. :)
-[^2]: Add this in front of any github repo's url to open it in vscode
+[^2]: Change `github.com` to `github.dev` in any github repo's url to open it in vscode in your browser
 
 [1]: https://www.python.org/
 [2]: https://www.python.org/dev/peps/pep-0020/#the-zen-of-python 
@@ -73,3 +70,8 @@ Doom Emacs is everything I can wish for in a text editor and if there isnt somet
 [18]: https://code.visualstudio.com/
 [19]: https://www.codeblocks.org/
 [20]: https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization
+[21]: https://www.vim.org/
+[22]: https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim
+[23]: https://github.com/hlissner/doom-emacs
+[24]: https://docs.microsoft.com/en-us/windows/wsl/install
+[25]: https://www.msys2.org/

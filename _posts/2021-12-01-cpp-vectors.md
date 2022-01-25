@@ -2,7 +2,7 @@
 layout:     post
 title:      C++ Vector
 date:       2021-12-01
-last_edited: 2021-12-09
+last_edited: 2022-01-25
 author:     Aniket
 summary:    A through explanation C++ Vectors
 categories: C++
@@ -64,6 +64,21 @@ vector<int> iv;
    for (int i = 0; i < 150; i++)
       iv.push_back(i);
 ```
-Here sequentially integers are being appended in vector. Also it is better to give value at runtime to the vector and initialising an empty vector instead of having a vector of predefined size(If we need a vector of predefined size, use array), unless all the elements needs to be of the same value.
+Here sequentially integers are being appended in vector. Also it is better to give value at runtime to the vector and initialising an empty vector instead of having a vector of predefined size(If you need a vector of predefined size, use array), unless all the elements needs to be of the same value.
+
+# Accessing elemets of a vector
+We can access the elements of vector using several different methods.\
+First being a simple for loop. Code below prints all the elemets of a vector.
+```cpp
+for(auto elem : vector)
+    std::cout<<elem<<std::endl;
+```
+But changes made to elem are not reflected inside `vector` . For that we can instead use `&elem`. \
+If you are familiar with arrays or accessing values using subscript, you can access elemets on vectors using indices too. `vector[0]` will return first element inside `vector`, `vector[1]` second element and so on. And to write equivalent code using indices, and for we first need to find the size of `vector`. That we can do using `size()` method.
+```cpp
+for(auto i=0;i<vector.size();i++)
+    vector[i];
+```
+However this method does not add elements
 
 [1]: https://en.cppreference.com/w/cpp/language/templates
