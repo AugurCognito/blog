@@ -1,11 +1,11 @@
 ---
 layout:     post
-title:      Making new Rails App
+title:      Making a new Rails App
 date:       2022-01-29
 author:     Aniket
 summary:    How to setup rails app with webpacker and local environment
 categories: Ruby
-thumbnail:  
+thumbnail:  ruby
 tags:
     -tutorial
 ---
@@ -23,6 +23,6 @@ And if you are like me and it did not work for you, just simply change your `Gem
 You can also set `bundle install` to some local directory with `bundle config path 'path/to/dir' --local` to save space or handle gems without worrying about global gem versions.
 
 [1]: https://rubyonrails.org/
-[2]: {% post_url _posts/2022-01-02-year-recap-twenty-twenty-one %}
+[2]: {% post_url 2022-01-02-year-recap-twenty-twenty-one %}
 [3]: https://www.railstutorial.org/
 [4]: https://edgeguides.rubyonrails.org/webpacker.html#installing-webpacker

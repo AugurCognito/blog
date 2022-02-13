@@ -961,4 +961,26 @@ td {
 		width: 100%;
 		margin-left: 0%;
 	} 
+}
+
+  .about-container{
+
+	@media (min-width: $screen-sm-min) {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	@media (min-width: $screen-md-min) {
+		width: 70%;
+		margin-left: 15%;
+	}
+
+	@media (min-width: $screen-lg-min) {
+		width: 50%;
+		margin-left: 25%;
+	}
+	@media (max-width:786px){
+		width: 100%;
+		margin-left: 0%;
+	}
   }

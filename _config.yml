@@ -12,6 +12,7 @@ github_repository: https://github.com/AugurCognito/blog
 addthis_id:
 plausible_site:
 goatcounter_code:
+cloudflare_toekn: 901c82e8d7b04dbcaf5070740094c2eb
 post_limit: 5
 
 # Social usernames/URLs

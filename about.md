@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: about
 title: about
 permalink: 
 ---
 
+hello world
