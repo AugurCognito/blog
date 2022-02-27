@@ -105,12 +105,12 @@ layout: default
             <span style="padding-right: 2px;font-size:22px;color: #bbbbbb;"> Share: </span>
 
             <div class="share-icons">
-              <a href="https://twitter.com/intent/tweet?text={{ page.summary }}&url={{ site.url }}{{ page.url }}"
+              <a href="https://twitter.com/intent/tweet?text={{ page.summary | url_encode }}&url={{ site.url }}{{ page.url | url_encode}}"
                 data-toggle="tooltip" title="Twitter" target="_blank" rel="noreferrer">
                 <i class="fa fa-twitter"></i>
               </a>
 
-              <a href="https://www.facebook.com/sharer/sharer.php?title={{ page.summary }}&u{{ site.url }}{{ page.url }}"
+              <a href="https://www.facebook.com/sharer/sharer.php?title={{ page.summary | url_encode }}&u{{ site.url }}{{ page.url | url_encode}}"
                 title="Facebook" target="_blank" aria-label="Facebook" rel="noreferrer">
                 <i class="fa fab fa-facebook"></i>
               </a>
