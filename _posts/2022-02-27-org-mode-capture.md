@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Org Mode and Org Capture
-date:       2022-01-29
+date:       2022-02-27
 author:     Aniket
 summary:    A brief explanation of org-mode and some examples of org-capture
 categories: Emacs
