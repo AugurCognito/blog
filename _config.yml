@@ -1,12 +1,12 @@
 description: "Just another Engineering student's blog"
 baseurl: ""
-url: "https://augurcognito.live/"
+url: "https://www.aniketsingh.net"
 title_description: I am doing my bachelors in Electronics & Telecommunication. Here I post stuff related to technology and programming, or whatever stuff i find interesting.
 title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
 google_analytics: 
 disqus_account: aug# Site settings
 title: "Aniket Singh"
-email: singhaniket@tutanota.com
+email: contact@aniketsingh.net
 disqus_account: augurcognito
 github_repository: https://github.com/AugurCognito/blog
 addthis_id:
@@ -14,13 +14,12 @@ plausible_site:
 goatcounter_code:
 cloudflare_token:
 post_limit: 5
-
 # Social usernames/URLs
 twitter_username: 
 github_username:  AugurCognito
 instagram_username: 
 reddit_username: 
-linkedin_link: https://www.linkedin.com/in/aniket-singh-aa6314203/
+linkedin_link: https://www.linkedin.com/in/singh--aniket/
 stackoverflow_link: 
 xing_link:
 facebook_link:
@@ -96,3 +95,4 @@ permalink: pretty
 exclude: [vendor]
 plugins:
   - jekyll-spaceship
+  - jekyll-sitemap
