@@ -2,6 +2,7 @@
 layout:     post
 title:      Org-Roam and Braindump
 date:       2022-05-15
+last_edited: 2022-06-08
 author:     Aniket
 summary:    Org-Roam and my braindump
 categories: Emacs
@@ -18,6 +19,6 @@ As mentioned in [my old blog]({% post_url 2022-01-02-year-recap-twenty-twenty-on
 I did most of my college assignments(writing in org-mode and exporting to odt/word or pdf). And so far I am still in love with it. Recently I found about [logseq](https://logseq.com/ "logseq knowledge base") too, an open source multi-platform knowledge management software, much like but a little less refined than [obsidian](https://obsidian.md/). It both supports org-mode and markdown. I only use it on my smartphone where it works pretty well.
 
 # Braindump
-I think knowledge should be shared and that's why I decided to make my org-roam(most of) notes public [here](https://braindump.augurcognito.live/archive). It was not an easy task to find a static site generator that works well with org-roam and its linking system. Currently, I am using one based on Nextjs. I am using modified version of [this project](https://github.com/rasendubi/uniorg/tree/master/examples/org-braindump). Like this blog site, this is also hosted on cloudflare pages. For analytics I am using Umami. Public dashboard is available [here](https://umami-production-dd92.up.railway.app/share/a5Vc70nH/braindump). You can tell from link, it is indeed hosted on railway and right now using free tier.I am planning to make more changes to the code.
+I think knowledge should be shared and that's why I decided to make my org-roam(most of) notes public [here](https://notes.aniketsingh.net/archive). It was not an easy task to find a static site generator that works well with org-roam and its linking system. Currently, I am using one based on Nextjs. I am using modified version of [this project](https://github.com/rasendubi/uniorg/tree/master/examples/org-braindump). Like this blog site, this is also hosted on cloudflare pages. For analytics I am using ~~Umami. Public dashboard is available [here](https://umami-production-dd92.up.railway.app/share/a5Vc70nH/braindump). You can tell from link, it is indeed hosted on railway and right now using free tier.~~[GoatCounter](https://www.goatcounter.com/ "GoatCounter homepage"). My instance is hosted on [render.com](https://render.com/). Public dashboard is available [gcounter subdomain](https://gcounter.aniketsingh.net/). I am planning to make more changes to the code and release it on github.
 
 I use `cron` and `rclone` to copy roam-notes every hour to the repo and then manually commit changes every 2-3 days or so.
